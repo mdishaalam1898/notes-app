@@ -1,16 +1,69 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 Notes App
 
-Currently, two official plugins are available:
+A simple and elegant Notes App built using **React** that lets users create, edit, delete, and search notes.  
+All notes are saved in **localStorage**, ensuring your data stays even after page refresh!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-  **Create Notes:** Add new notes with a title and content.  
+-  **Search Notes:** Quickly filter notes using a search bar.  
+-  **Delete Notes:** Remove any note you no longer need.  
+-  **Auto Save:** Notes are automatically stored in the browser’s localStorage.  
+-  **Dark/Light Mode:** Toggle between dark and light themes.  
+-  **Character Counter:** See remaining characters while typing.  
+-  **Responsive Design:** Works perfectly on desktop and mobile.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Tech Stack
+
+- **Frontend:** React (Vite)
+- **Styling:** CSS / Styled Components
+- **Storage:** localStorage
+
+---
+
+## 🧠 Learning Highlights
+
+Through this project, I strengthened my understanding of:
+- React state management using `useState` and `useEffect`
+- Conditional rendering and event handling
+- Persisting data with localStorage
+- Component-based UI design
+
+---
+
+## 📸 Screenshots
+
+| Light Mode | Dark Mode |
+|-------------|------------|
+| ![Light](./screenshots/light-mode.png) | ![Dark](./screenshots/dark-mode.png) |
+
+---
+
+## 🔗 Live Demo
+
+👉 [**View Notes App Live**](https://notes-app2025.netlify.app/)
+
+---
+
+## 💻 Installation and Setup
+
+To run this project locally:
+
+```bash
+# Clone this repository
+git clone https://github.com/mdishaalam1898/notes-app.git
+
+# Navigate to the project folder
+cd notes-app
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
